@@ -1,5 +1,14 @@
-function okno(id) {
-	window.open("podstranky/popis.php?id=" + id, scrollbars = true, resize = true);
+function pad(n, width, z) {
+	z = z || '0';
+	n = n + '';
+	return n.length >= width ? n : new Array(width - n.length + 1).join(z) + n;
+}
+
+function okno(id, count) {
+	if (count > 0) {
+		window.open("/fotky/dreviny/f" + pad(id, 3) + "_1v.jpg")
+		// window.open("podstranky/popis.php?id=" + id, scrollbars = true, resize = true);
+	}
 }
 
 function fotka2(cislo) {
