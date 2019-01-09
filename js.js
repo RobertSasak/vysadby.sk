@@ -6,7 +6,7 @@ function pad(n, width, z) {
 
 function okno(id, count) {
 	if (count > 0) {
-		window.open("/fotky/dreviny/f" + pad(id, 3) + "_1v.jpg")
+		window.open("fotky/dreviny/f" + pad(id, 3) + "_1v.jpg")
 		// window.open("podstranky/popis.php?id=" + id, scrollbars = true, resize = true);
 	}
 }
