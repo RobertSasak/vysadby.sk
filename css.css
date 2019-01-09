@@ -271,3 +271,12 @@ ul.accordion li p{
   margin-left: 79px;
   color: #333;
 }
+
+@media print {
+	.cennikTable tr td:nth-child(1) {  
+		display: none;
+	}
+	.hpanel, .vpravo2, .dole img {
+		display: none;
+	}
+}
