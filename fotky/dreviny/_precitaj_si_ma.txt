@@ -7,3 +7,5 @@ n - najvacsia fotka
 
 najlepsie urobit  takto prvu fotku vyrobit ako 120x90 navysku a prepisat ju priamo do databazy / prettym normalne nahrat fotku automaticky/
 2 fotku pridat automaticky /zobrazuje sa len velka - az po kliknuti na fotku
+
+
