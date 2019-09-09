@@ -305,6 +305,55 @@ ul.accordion li p {
     color: #333;
 }
 
+.cennikTable {
+    border-spacing: 0;
+    border-collapse: collapse;
+    width: 100%
+}
+
+.cennikTable thead td {
+    background-color: #ffff66;
+    font-weight: bold;
+    text-align: center;
+}
+
+.cennikTable td {
+    border: 1px solid black
+}
+
+.cennikTable img {
+    width: 120px;
+}
+
+.cennikTable .vyska {
+    padding-right: 10px;
+    text-align: right;
+}
+
+.cennikTable .latinsky {
+    padding: 0 10px;
+}
+
+.cennikTable .nazov {
+    padding: 0 10px;
+}
+
+.cennikTable .cena {
+    text-align: center;
+}
+
+.cennikTable .fotka {
+    width: 75px;
+}
+
+.cennikTable tr:nth-child(2n) {
+    background-color: #b8fdb5;
+}
+
+.cennikTable tr:nth-child(2n+1) {
+    background-color: #e6fee0;
+}
+
 @media print {
     .cennikTable tr td:nth-child(1) {
         display: none;
