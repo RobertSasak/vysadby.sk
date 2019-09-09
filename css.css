@@ -325,6 +325,10 @@ ul.accordion li p {
     width: 120px;
 }
 
+.cennikTable .skryta {
+    display: none;
+}
+
 .cennikTable .vyska {
     padding-right: 10px;
     text-align: right;
