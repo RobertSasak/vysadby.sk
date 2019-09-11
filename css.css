@@ -1,9 +1,61 @@
-/* Index */
 body {
-    background-color: #FEFFC3;
-    font-family: Arial;
-    font-size: 12px;
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0;
 }
+
+header {
+    background-color: #fff77a;
+    padding-bottom: 2em;
+}
+
+header h1 {
+    clear: both;
+    font-size: 4em;
+    color: #2c5f2d;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+header h2 {
+    margin-top: 0;
+    font-size: 2em;
+    color: #2c5f2daa;
+    font-style: italic;
+    text-align: center;
+}
+
+header nav {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+header nav a {
+    color: #2c5f2d;
+}
+
+article {
+    margin: 0 auto;
+    max-width: 760px;
+    padding: 1em 0;
+}
+
+footer {
+    background-color: #fff77a;
+    padding: 2em;
+    text-align: center;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .cennikTable .latinsky {
+        display: none;
+    }
+
+}
+
 
 .strana {
     margin: 0 auto;
@@ -11,14 +63,7 @@ body {
 }
 
 .pas {
-    background-color: white;
     padding: 2em;
-}
-
-.stred {
-    background-image: url("img/h_vpravo2.gif");
-    background-repeat: no-repeat;
-    background-position: 100% 0%;
 }
 
 /* KONIEC - Index */
@@ -359,8 +404,8 @@ ul.accordion li p {
 }
 
 @media print {
-     .cennikTable .fotka {
-          display: none;
+    .cennikTable .fotka {
+        display: none;
     }
 
     .hpanel,
