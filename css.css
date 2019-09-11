@@ -359,8 +359,8 @@ ul.accordion li p {
 }
 
 @media print {
-    .cennikTable tr td:nth-child(1) {
-        display: none;
+     .cennikTable .fotka {
+          display: none;
     }
 
     .hpanel,
