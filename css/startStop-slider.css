@@ -1,39 +1,75 @@
-*								{ margin: 0; padding: 0; }
-a								{ text-decoration: none; outline: none; }
-a img							{ border: none; }
-
-#page-wrap						{ background: white; width: 960px; margin: 0 auto; 
-								  padding: 50px 0; }
+#page-wrap {
+  background: white;
+  width: 960px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
 
 #slider {
   width: 720px;
   background: white url(/img/startStop-slider/slider-bg.jpg);
-  height: 227px; overflow: hidden;
-  position: relative; margin: 50px 0;
+  height: 227px;
+  overflow: hidden;
+  position: relative;
+  margin: 50px 0;
 }
-								  
-                                /* DEFAULT is for three panels in width, adjust as needed
-                                   This only matters if JS is OFF, otherwise JS sets this. */								  
-#mover							{ width: 2880px; position: relative; }
 
-.slide							{ padding: 40px 30px; width: 900px; float: left; position: relative; 
-  font-family: "Lucida Grande", Arial, Sans-Serif; 
+/* DEFAULT is for three panels in width, adjust as needed
+                                   This only matters if JS is OFF, otherwise JS sets this. */
+#mover {
+  width: 2880px;
+  position: relative;
 }
-.slide h1						{ font-family: Helvetica, Sans-Serif; font-size: 30px; letter-spacing: -1px;
-								  color: #ac0000; 
-                  margin-bottom: 0px;
-                  padding-bottom: 0;
-                  }
+
+.slide {
+  padding: 40px 30px;
+  width: 900px;
+  float: left;
+  position: relative;
+  font-family: "Lucida Grande", Arial, Sans-Serif;
+}
+
+.slide h1 {
+  font-family: Helvetica, Sans-Serif;
+  font-size: 30px;
+  letter-spacing: -1px;
+  color: #ac0000;
+  margin-bottom: 0px;
+  padding-bottom: 0;
+}
+
 .slide h3 {
-padding-top: 0;
+  padding-top: 0;
   margin: 0 0 0 20px;
-            font-size: 24px;
-            color: #ee8685;
+  font-size: 24px;
+  color: #ee8685;
 }
-.slide p						{ color: #999; font-size: 12px; line-height: 22px; width: 300px; }
-.slide img						{ position: absolute; top: 20px; left: 400px; }
-#slider-stopper					{ position: absolute; top: 1px; right: 20px; background: #ac0000; color: white;
-								  padding: 3px 8px; font-size: 10px; text-transform: uppercase; z-index: 1000; }
+
+.slide p {
+  color: #999;
+  font-size: 12px;
+  line-height: 22px;
+  width: 300px;
+}
+
+.slide img {
+  position: absolute;
+  top: 20px;
+  left: 400px;
+}
+
+#slider-stopper {
+  position: absolute;
+  top: 1px;
+  right: 20px;
+  background: #ac0000;
+  color: white;
+  padding: 3px 8px;
+  font-size: 10px;
+  text-transform: uppercase;
+  z-index: 1000;
+}
+
 .slide img {
   width: 220px;
   -moz-border-radius: 5px;
@@ -42,26 +78,29 @@ padding-top: 0;
   -webkit-box-shadow: 5px 5px 5px #ea9898;
   box-shadow: 5px 5px 5px #ea9898;
 }
+
 .slide b {
   display: block;
   margin-left: 15px;
   font-size: 45px;
   color: #c90404;
-  text-shadow: 2px 2px 2px #ea9898; 
+  text-shadow: 2px 2px 2px #ea9898;
 }
+
 #slider p.footnote {
   position: absolute;
   top: 195px;
-  font-family: "Lucida Grande", Arial, Sans-Serif; 
+  font-family: "Lucida Grande", Arial, Sans-Serif;
   letter-spacing: 0px;
   color: #444;
   margin-left: 10px;
 }
+
 #slider p.header {
   position: absolute;
   top: 10px;
   left: -5px;
-  font-family: "Lucida Grande", Arial, Sans-Serif; 
+  font-family: "Lucida Grande", Arial, Sans-Serif;
   letter-spacing: 0px;
   font-weight: bold;
   font-size: 22px;
