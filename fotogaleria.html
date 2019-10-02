@@ -1,95 +1,232 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Fotogaléria • Záhradníctvo Jacovce</title>
+    <meta
+      name="keywords"
+      content="fotky,obrázky,galéria,cenník,dreviny,wisteria,tavolnik,Conica,Tis,Tiny Tim,Buxus,Thuje,Smaragd,Mlyňanka,Juniperus Skyrocket, Vtáčí zob,Ligustrum,Weigela"
+    />
+    <meta name="description" content="Fotografie okrasných drevín" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="css.css" />
+    <link rel="stylesheet" type="text/css" href="css/startStop-slider.css" />
+    <script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+    <script type="text/javascript" src="js/jquery.lightbox.js"></script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="css/lightbox.css"
+      media="screen"
+    />
 
-<head>
-        <title>Fotogaléria • Záhradníctvo Jacovce</title>
-        <meta name="keywords"
-                content="fotky,obrázky,galéria,cenník,dreviny,wisteria,tavolnik,Conica,Tis,Tiny Tim,Buxus,Thuje,Smaragd,Mlyňanka,Juniperus Skyrocket, Vtáčí zob,Ligustrum,Weigela">
-        <meta name="description" content="Fotografie okrasných drevín">
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="css.css">
-        <link rel="stylesheet" type="text/css" href="css/startStop-slider.css">
-        <script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
-        <script type="text/javascript" src="js/jquery.lightbox.js"></script>
-        <link rel="stylesheet" type="text/css" href="css/lightbox.css" media="screen" />
+    <script src="js.js" type="text/javascript" language="javascript"></script>
 
-        <script src="js.js" type="text/javascript" language="javascript"></script>
-        
-        <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css"
-                integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w"
-                crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/purecss@1.0.0/build/pure-min.css"
+      integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w"
+      crossorigin="anonymous"
+    />
 
-        <script type="text/javascript">
-                $(function () {
-                        $('a[rel*=lightbox]').lightbox();
+    <script type="text/javascript">
+      $(function() {
+        $("a[rel*=lightbox]").lightbox();
 
-                        //startstop-slider
-                        var delayLength = 4000;
+        //startstop-slider
+        var delayLength = 4000;
+      });
+    </script>
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(["_setAccount", "UA-25247619-1"]);
+      _gaq.push(["_trackPageview"]);
 
-                });
-        </script>
-        <script type="text/javascript">
+      (function() {
+        var ga = document.createElement("script");
+        ga.type = "text/javascript";
+        ga.async = true;
+        ga.src =
+          ("https:" == document.location.protocol
+            ? "https://ssl"
+            : "http://www") + ".google-analytics.com/ga.js";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+  </head>
 
-                var _gaq = _gaq || [];
-                _gaq.push(['_setAccount', 'UA-25247619-1']);
-                _gaq.push(['_trackPageview']);
-
-                (function () {
-                        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-                        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-                        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-                })();
-
-        </script>
-</head>
-
-<body>
-        <header>
-                <h1>Výsadby</h1>
-                <h2>Záhradníctvo Jacovce</h2>
-                <nav>
-                        <a href="./">Úvod</a>&nbsp;
-                        <a href="cennik.html">Cenník</a>&nbsp;
-                        <a href="fotogaleria.html">Fotogaléria</a>&nbsp;
-                        <a href="kontakt.html">Kontakt</a>
-                </nav>
-        </header>
-        <article>
-                <h1>Realizácia výsadby</h1>
-                <div class="fotogaleria">
-                        <div><a href="img/fotogaleria/f13.jpg" rel="lightbox" title="Príprava pozemku"><img src="img/fotogaleria/f13-m.jpg"></a></div>
-                        <div><a href="img/fotogaleria/f14.jpg" rel="lightbox" title="Príprava pozemku"><img src="img/fotogaleria/f14-m.jpg"></a></div>
-                        <div><a href="img/fotogaleria/f15.jpg" rel="lightbox" title="Príprava pozemku"><img src="img/fotogaleria/f15-m.jpg"></a></div>
-                        <div><a href="img/fotogaleria/f16.jpg" rel="lightbox" title="Príprava pozemku"><img src="img/fotogaleria/f16-m.jpg"></a></div>
-                        <div class="text">Postup prác pri realizácii vysadby okrasných drevín - príprava pozemku - úprava terénu, vyrovnanie</div>
-                        <div><a href="img/fotogaleria/f17.jpg" rel="lightbox" title="Príprava pozemku"><img src="img/fotogaleria/f17-m.jpg"></a></div>
-                        <div><a href="img/fotogaleria/f18.jpg" rel="lightbox" title="Výsadba drevín"><img src="img/fotogaleria/f18-m.jpg"></a></div>
-                        <div><a href="img/fotogaleria/f19.jpg" rel="lightbox" title="Výsadba drevín"><img src="img/fotogaleria/f19-m.jpg"></a></div>
-                        <div><a href="img/fotogaleria/f20.jpg" rel="lightbox" title="Výsadba drevín"><img src="img/fotogaleria/f20-m.jpg"></a></div>
-                        <div class="text">Príprava pod trávnik, výsadba drevín, architektonivké dotváranie návrhu</div>
-                        <div><a href="img/fotogaleria/f21.jpg" rel="lightbox" title="Výsadba drevín na živý plot"><img src="img/fotogaleria/f21-m.jpg"></a></div>
-                        <div><a href="img/fotogaleria/f22.jpg" rel="lightbox" title="Výsadba drevín na živý plot"><img src="img/fotogaleria/f22-m.jpg"></a></div>
-                        <div><a href="img/fotogaleria/f23.jpg" rel="lightbox" title="Výsadba drevín na živý plot"><img src="img/fotogaleria/f23-m.jpg"></a></div>
-                        <div><a href="img/fotogaleria/f24.jpg" rel="lightbox" title="Výsadba soliterov v stredovej časti"><img src="img/fotogaleria/f24-m.jpg"></a></div>
-                        <div class="text">Výsadba drevín na živý plot a vytvorenie soliterov v stredovej časti
-                        </div>
-                        <div><a href="img/fotogaleria/f04.jpg" rel="lightbox" title=""><img src="img/fotogaleria/f04-m.jpg"></a></div>
-                        <div><a href="img/fotogaleria/f05.jpg" rel="lightbox" title=""><img src="img/fotogaleria/f05-m.jpg"></a></div>
-                        <div><a href="img/fotogaleria/f06.jpg" rel="lightbox" title=""><img src="img/fotogaleria/f06-m.jpg"></a></div>
-                        <div><a href="img/fotogaleria/f07.jpg" rel="lightbox" title=""><img src="img/fotogaleria/f07-m.jpg"></a></div>
-                        <div class="text"></div>
-                        <div><a href="img/fotogaleria/f08.jpg" rel="lightbox" title=""><img src="img/fotogaleria/f08-m.jpg"></a></div>
-                        <div><a href="img/fotogaleria/f09.jpg" rel="lightbox" title=""><img src="img/fotogaleria/f09-m.jpg"></a></div>
-                        <div><a href="img/fotogaleria/f10.jpg" rel="lightbox" title=""><img src="img/fotogaleria/f10-m.jpg"></a></div>
-                        <div><a href="img/fotogaleria/f11.jpg" rel="lightbox" title=""><img src="img/fotogaleria/f11-m.jpg"></a></div>
-                        <div><a href="img/fotogaleria/f12.jpg" rel="lightbox" title=""><img src="img/fotogaleria/f12-m.jpg"></a></div>
-                        <div style="clear: both;float: none;"></div>
-                </div>
-        </article>
-        <footer>
-                Záhradníctvo Jacovce: 0903 / 477 835
-        </footer>
-</body>
-
+  <body>
+    <header>
+      <h1>Výsadby</h1>
+      <h2>Záhradníctvo Jacovce</h2>
+      <nav>
+        <a href="./">Úvod</a>&nbsp; <a href="cennik.html">Cenník</a>&nbsp;
+        <a href="fotogaleria.html" class="active">Fotogaléria</a>&nbsp;
+        <a href="kontakt.html">Kontakt</a>
+      </nav>
+    </header>
+    <article>
+      <h1>Realizácia výsadby</h1>
+      <div class="fotogaleria">
+        <div>
+          <a
+            href="img/fotogaleria/f13.jpg"
+            rel="lightbox"
+            title="Príprava pozemku"
+            ><img src="img/fotogaleria/f13-m.jpg"
+          /></a>
+        </div>
+        <div>
+          <a
+            href="img/fotogaleria/f14.jpg"
+            rel="lightbox"
+            title="Príprava pozemku"
+            ><img src="img/fotogaleria/f14-m.jpg"
+          /></a>
+        </div>
+        <div>
+          <a
+            href="img/fotogaleria/f15.jpg"
+            rel="lightbox"
+            title="Príprava pozemku"
+            ><img src="img/fotogaleria/f15-m.jpg"
+          /></a>
+        </div>
+        <div>
+          <a
+            href="img/fotogaleria/f16.jpg"
+            rel="lightbox"
+            title="Príprava pozemku"
+            ><img src="img/fotogaleria/f16-m.jpg"
+          /></a>
+        </div>
+        <div class="text">
+          Postup prác pri realizácii vysadby okrasných drevín - príprava pozemku
+          - úprava terénu, vyrovnanie
+        </div>
+        <div>
+          <a
+            href="img/fotogaleria/f17.jpg"
+            rel="lightbox"
+            title="Príprava pozemku"
+            ><img src="img/fotogaleria/f17-m.jpg"
+          /></a>
+        </div>
+        <div>
+          <a
+            href="img/fotogaleria/f18.jpg"
+            rel="lightbox"
+            title="Výsadba drevín"
+            ><img src="img/fotogaleria/f18-m.jpg"
+          /></a>
+        </div>
+        <div>
+          <a
+            href="img/fotogaleria/f19.jpg"
+            rel="lightbox"
+            title="Výsadba drevín"
+            ><img src="img/fotogaleria/f19-m.jpg"
+          /></a>
+        </div>
+        <div>
+          <a
+            href="img/fotogaleria/f20.jpg"
+            rel="lightbox"
+            title="Výsadba drevín"
+            ><img src="img/fotogaleria/f20-m.jpg"
+          /></a>
+        </div>
+        <div class="text">
+          Príprava pod trávnik, výsadba drevín, architektonivké dotváranie
+          návrhu
+        </div>
+        <div>
+          <a
+            href="img/fotogaleria/f21.jpg"
+            rel="lightbox"
+            title="Výsadba drevín na živý plot"
+            ><img src="img/fotogaleria/f21-m.jpg"
+          /></a>
+        </div>
+        <div>
+          <a
+            href="img/fotogaleria/f22.jpg"
+            rel="lightbox"
+            title="Výsadba drevín na živý plot"
+            ><img src="img/fotogaleria/f22-m.jpg"
+          /></a>
+        </div>
+        <div>
+          <a
+            href="img/fotogaleria/f23.jpg"
+            rel="lightbox"
+            title="Výsadba drevín na živý plot"
+            ><img src="img/fotogaleria/f23-m.jpg"
+          /></a>
+        </div>
+        <div>
+          <a
+            href="img/fotogaleria/f24.jpg"
+            rel="lightbox"
+            title="Výsadba soliterov v stredovej časti"
+            ><img src="img/fotogaleria/f24-m.jpg"
+          /></a>
+        </div>
+        <div class="text">
+          Výsadba drevín na živý plot a vytvorenie soliterov v stredovej časti
+        </div>
+        <div>
+          <a href="img/fotogaleria/f04.jpg" rel="lightbox" title=""
+            ><img src="img/fotogaleria/f04-m.jpg"
+          /></a>
+        </div>
+        <div>
+          <a href="img/fotogaleria/f05.jpg" rel="lightbox" title=""
+            ><img src="img/fotogaleria/f05-m.jpg"
+          /></a>
+        </div>
+        <div>
+          <a href="img/fotogaleria/f06.jpg" rel="lightbox" title=""
+            ><img src="img/fotogaleria/f06-m.jpg"
+          /></a>
+        </div>
+        <div>
+          <a href="img/fotogaleria/f07.jpg" rel="lightbox" title=""
+            ><img src="img/fotogaleria/f07-m.jpg"
+          /></a>
+        </div>
+        <div class="text"></div>
+        <div>
+          <a href="img/fotogaleria/f08.jpg" rel="lightbox" title=""
+            ><img src="img/fotogaleria/f08-m.jpg"
+          /></a>
+        </div>
+        <div>
+          <a href="img/fotogaleria/f09.jpg" rel="lightbox" title=""
+            ><img src="img/fotogaleria/f09-m.jpg"
+          /></a>
+        </div>
+        <div>
+          <a href="img/fotogaleria/f10.jpg" rel="lightbox" title=""
+            ><img src="img/fotogaleria/f10-m.jpg"
+          /></a>
+        </div>
+        <div>
+          <a href="img/fotogaleria/f11.jpg" rel="lightbox" title=""
+            ><img src="img/fotogaleria/f11-m.jpg"
+          /></a>
+        </div>
+        <div>
+          <a href="img/fotogaleria/f12.jpg" rel="lightbox" title=""
+            ><img src="img/fotogaleria/f12-m.jpg"
+          /></a>
+        </div>
+        <div style="clear: both;float: none;"></div>
+      </div>
+    </article>
+    <footer>
+      Záhradníctvo Jacovce: 0903 / 477 835
+    </footer>
+  </body>
 </html>

@@ -34,6 +34,12 @@ header nav {
 
 header nav a {
   color: #2c5f2d;
+  text-decoration: none;
+}
+
+header nav a.active {
+  color: #00a013;
+  text-decoration: underline;
 }
 
 article {
@@ -233,6 +239,7 @@ a:hover {
 .fotogaleria .text {
   clear: both;
   width: 100%;
+  margin: 2em 0;
 }
 
 .uputavka {
