@@ -1,416 +1,367 @@
 body {
-    font-family: Helvetica, Arial, sans-serif;
-    margin: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0;
 }
 
 header {
-    background-color: #fff77a;
-    padding-bottom: 2em;
+  background-color: #fff77a;
+  padding-bottom: 2em;
 }
 
 header h1 {
-    clear: both;
-    font-size: 4em;
-    color: #2c5f2d;
-    font-weight: bold;
-    text-align: center;
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-bottom: 0;
+  clear: both;
+  font-size: 4em;
+  color: #2c5f2d;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 header h2 {
-    margin-top: 0;
-    font-size: 2em;
-    color: #2c5f2daa;
-    font-style: italic;
-    text-align: center;
+  margin-top: 0;
+  font-size: 2em;
+  color: #2c5f2daa;
+  font-style: italic;
+  text-align: center;
 }
 
 header nav {
-    text-align: center;
-    font-size: 1.5em;
+  text-align: center;
+  font-size: 1.5em;
 }
 
 header nav a {
-    color: #2c5f2d;
+  color: #2c5f2d;
 }
 
 article {
-    margin: 0 auto;
-    max-width: 760px;
-    padding: 1em 0;
+  margin: 0 auto;
+  max-width: 760px;
+  padding: 1em 0;
 }
 
 footer {
-    background-color: #fff77a;
-    padding: 2em;
-    text-align: center;
+  background-color: #fff77a;
+  padding: 2em;
+  text-align: center;
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
-
-    .cennikTable .latinsky {
-        display: none;
-    }
-
+  .cennikTable .latinsky {
+    display: none;
+  }
 }
 
-
 .strana {
-    margin: 0 auto;
-    max-width: 760px;
+  margin: 0 auto;
+  max-width: 760px;
 }
 
 .pas {
-    padding: 2em;
+  padding: 2em;
 }
 
 /* KONIEC - Index */
 /* Horny Panel */
 .hpanel {
-    background-image: url("img/h_pozadie.gif");
-    width: 760px;
-    height: 69px;
-    border-spacing: 0;
-    border-collapse: 0;
+  background-image: url("img/h_pozadie.gif");
+  width: 760px;
+  height: 69px;
+  border-spacing: 0;
+  border-collapse: 0;
 }
 
 .hpanel td {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .hpanel tr {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .hpanel .vlavo {
-    width: 10px;
+  width: 10px;
 }
 
 .hpanel .vlavo img {
-    border-right: 1px solid #FFFFFF;
-    width: 10px;
-    height: 69px;
+  border-right: 1px solid #ffffff;
+  width: 10px;
+  height: 69px;
 }
 
 .hpanel .logo {
-    width: 220px;
+  width: 220px;
 }
 
 .hpanel .logo img {
-    width: 165px;
-    height: 54px;
+  width: 165px;
+  height: 54px;
 }
 
 .hpanel .zahradnictvo {
-    height: 35px;
-    color: #C6AC54;
-    font-size: 30px;
-    font-style: italic;
+  height: 35px;
+  color: #c6ac54;
+  font-size: 30px;
+  font-style: italic;
 }
 
 .hpanel .menu {
-    background-image: url("img/h_menu.gif");
-    background-repeat-y: no-repeat;
-    height: 27px;
+  background-image: url("img/h_menu.gif");
+  background-repeat-y: no-repeat;
+  height: 27px;
 }
 
 .hpanel .menu a {
-    white-space: nowrap;
-    padding: 0 7px 0 7px;
-    color: #7E7107;
-    font-weight: bold;
-    font-size: 18px;
-    text-decoration: none;
+  white-space: nowrap;
+  padding: 0 7px 0 7px;
+  color: #7e7107;
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration: none;
 }
 
 .hpanel .menu a:hover {
-    text-decoration: underline;
-    color: #A19320;
+  text-decoration: underline;
+  color: #a19320;
 }
 
 .hpanel .menu_vlavo {
-    background-image: url("img/h_menu_vlavo.gif");
-    background-repeat-y: no-repeat;
-    width: 10px;
+  background-image: url("img/h_menu_vlavo.gif");
+  background-repeat-y: no-repeat;
+  width: 10px;
 }
 
 .hpanel .vpravo {
-    background-image: url("img/h_vpravo.gif");
-    background-repeat: no-repeat;
-    width: 96px;
-    height: 69px;
+  background-image: url("img/h_vpravo.gif");
+  background-repeat: no-repeat;
+  width: 96px;
+  height: 69px;
 }
 
 .hpanel .jazyky img {
-    border: 0;
-    margin-top: 2;
-    margin-bottom: 3;
-    margin-right: 10px;
-
+  border: 0;
+  margin-top: 2;
+  margin-bottom: 3;
+  margin-right: 10px;
 }
 
 /* KONIEC - Horny Panel */
 h1 {
-    padding: 15px;
-    margin: 0;
-    font-size: 16px;
-    font-weight: bold;
-    color: #BC9C34;
+  padding: 15px;
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: #bc9c34;
 }
 
 h2 {
-    margin: 7px 0 7px 7px;
-    font-size: 16px;
-    font-weight: bold;
-    color: #BC9C34;
+  margin: 7px 0 7px 7px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #bc9c34;
 }
 
 h3 {
-    margin: 7px 0 7px 30px;
-    font-size: 11px;
-    font-weight: bold;
-    color: #BC9C34;
+  margin: 7px 0 7px 30px;
+  font-size: 11px;
+  font-weight: bold;
+  color: #bc9c34;
 }
 
 a {
-    font-weight: bold;
-    color: #37D199;
-    text-decoration: underline;
+  font-weight: bold;
+  color: #37d199;
+  text-decoration: underline;
 }
 
 a:hover {
-    color: #24FF3E;
+  color: #24ff3e;
 }
 
 .ponukame {
-    font-weight: bold;
-    font-size: 14px;
-    margin: 0 0 0 57px;
-    color: #B69200;
+  font-weight: bold;
+  font-size: 14px;
+  margin: 0 0 0 57px;
+  color: #b69200;
 }
 
 /* Dole */
 .dole {
-    clear: both;
-    text-align: center;
-    background-color: #FFE11A;
-    font-weight: bold;
-    padding: 1em;
+  clear: both;
+  text-align: center;
+  background-color: #ffe11a;
+  font-weight: bold;
+  padding: 1em;
 }
 
 /* Uvod */
 .uvod {
-    background: url("img/bg_uvod.gif") no-repeat;
+  background: url("img/bg_uvod.gif") no-repeat;
 }
 
 .uvod img {
-    border: 1px solid #FFE42A;
-    width: 150px;
+  border: 1px solid #ffe42a;
+  width: 150px;
 }
 
 .uvod div {
-    margin: 10px 0 10px 50px;
+  margin: 10px 0 10px 50px;
 }
 
 .uvod #velka {
-    margin-left: 50px;
-    width: 400px;
-    height: 300px;
-}
-
-
-/* Fotogaleria */
-.fotogaleria {
-    position: relative;
-}
-
-.fotogaleria2 {
-    position: relative;
-    margin: 0 !important;
-    padding: 0;
+  margin-left: 50px;
+  width: 400px;
+  height: 300px;
 }
 
 .fotogaleria div {
-    float: left;
-    margin: 30px 17px 0 17px;
-    text-align: center;
+  float: left;
+  margin: 30px 17px 0 17px;
+  text-align: center;
 }
 
 .fotogaleria img {
-    cursor: pointer;
-    border: 1px solid #DDDDDD;
-    padding: 4px;
-    background: #fff299;
-}
-
-.fotogaleria b {
-    display: block;
-}
-
-.fotogaleria .div_velka {
-    left: 110px;
-    position: absolute;
-    display: none;
-}
-
-.fotogaleria .div_velka img {
-    padding: 14px;
+  border: 1px solid #dddddd;
+  padding: 4px;
+  background: #fff299;
 }
 
 .fotogaleria .text {
-    width: 650px;
-    clear: both;
+  clear: both;
+  width: 100%;
 }
 
 .uputavka {
-    float: right;
-    margin: 20px 20px 0 20px;
-    width: 250px;
-    min-height: 50px;
-    border: 2px solid #FFEF6B;
-    background-color: #FEFFC3
+  float: right;
+  margin: 20px 20px 0 20px;
+  width: 250px;
+  min-height: 50px;
+  border: 2px solid #ffef6b;
+  background-color: #feffc3;
 }
 
 .uputavka img {
-    width: 100%;
+  width: 100%;
 }
 
 .thumbnail img {
-    width: 75px;
-    border: 0;
+  width: 75px;
+  border: 0;
 }
 
 .thumbnail2 {
-    display: none;
+  display: none;
 }
-
-
-
-.fotogaleria-kriky div {
-    float: left;
-    width: 120px;
-    text-align: center;
-    border: 1px solid #DDDDDD;
-    padding: 4px;
-    background: #fff299;
-    margin: 20px;
-}
-
-.fotogaleria-kriky div img {
-    width: 120px;
-    border: 0px;
-}
-
 
 ul.accordion {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 ul.accordion li {
-    float: left;
-    padding: 0px;
-    display: block;
-    margin-right: 3px;
+  float: left;
+  padding: 0px;
+  display: block;
+  margin-right: 3px;
 }
 
 ul.accordion li a {
-    display: block;
-    overflow: hidden;
-    height: 75px;
-    width: 75px;
-    text-decoration: none;
+  display: block;
+  overflow: hidden;
+  height: 75px;
+  width: 75px;
+  text-decoration: none;
 }
 
 ul.accordion li a:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 #a1 {
-    width: 210px;
+  width: 210px;
 }
 
 ul.accordion li img {
-    position: absolute;
-    border: 1px solid #aaa;
-    width: 70px;
+  position: absolute;
+  border: 1px solid #aaa;
+  width: 70px;
 }
 
 ul.accordion li p {
-    margin: 0;
-    padding: 0;
-    width: 130px;
-    display: block;
-    margin-left: 79px;
-    color: #333;
+  margin: 0;
+  padding: 0;
+  width: 130px;
+  display: block;
+  margin-left: 79px;
+  color: #333;
 }
 
 .cennikTable {
-    border-spacing: 0;
-    border-collapse: collapse;
-    width: 100%
+  border-spacing: 0;
+  border-collapse: collapse;
+  width: 100%;
 }
 
 .cennikTable thead td {
-    background-color: #ffff66;
-    font-weight: bold;
-    text-align: center;
+  background-color: #ffff66;
+  font-weight: bold;
+  text-align: center;
 }
 
 .cennikTable td {
-    border: 1px solid black
+  border: 1px solid black;
 }
 
 .cennikTable img {
-    width: 120px;
+  width: 120px;
 }
 
 .cennikTable .skryta {
-    display: none;
+  display: none;
 }
 
 .cennikTable .vyska {
-    padding-right: 10px;
-    text-align: right;
+  padding-right: 10px;
+  text-align: right;
 }
 
 .cennikTable .latinsky {
-    padding: 0 10px;
+  padding: 0 10px;
 }
 
 .cennikTable .nazov {
-    padding: 0 10px;
+  padding: 0 10px;
 }
 
 .cennikTable .cena {
-    text-align: center;
+  text-align: center;
 }
 
 .cennikTable .fotka {
-    width: 75px;
+  width: 75px;
 }
 
 .cennikTable tr:nth-child(2n) {
-    background-color: #b8fdb5;
+  background-color: #b8fdb5;
 }
 
-.cennikTable tr:nth-child(2n+1) {
-    background-color: #e6fee0;
+.cennikTable tr:nth-child(2n + 1) {
+  background-color: #e6fee0;
 }
 
 @media print {
-    .cennikTable .fotka {
-        display: none;
-    }
+  .cennikTable .fotka {
+    display: none;
+  }
 
-    .hpanel,
-    .vpravo2,
-    .dole img {
-        display: none;
-    }
+  .hpanel,
+  .vpravo2,
+  .dole img {
+    display: none;
+  }
 }
