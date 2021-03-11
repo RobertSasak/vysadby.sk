@@ -44,7 +44,7 @@ header nav a.active {
 
 article {
   margin: 0 auto;
-  max-width: 760px;
+  max-width: 1024px;
   padding: 1em 0;
 }
 
@@ -72,7 +72,7 @@ footer {
 /* KONIEC - Index */
 /* Horny Panel */
 .hpanel {
-  background-image: url("img/h_pozadie.gif");
+  background-image: url('img/h_pozadie.gif');
   width: 760px;
   height: 69px;
   border-spacing: 0;
@@ -116,7 +116,7 @@ footer {
 }
 
 .hpanel .menu {
-  background-image: url("img/h_menu.gif");
+  background-image: url('img/h_menu.gif');
   background-repeat-y: no-repeat;
   height: 27px;
 }
@@ -136,13 +136,13 @@ footer {
 }
 
 .hpanel .menu_vlavo {
-  background-image: url("img/h_menu_vlavo.gif");
+  background-image: url('img/h_menu_vlavo.gif');
   background-repeat-y: no-repeat;
   width: 10px;
 }
 
 .hpanel .vpravo {
-  background-image: url("img/h_vpravo.gif");
+  background-image: url('img/h_vpravo.gif');
   background-repeat: no-repeat;
   width: 96px;
   height: 69px;
@@ -206,7 +206,7 @@ a:hover {
 
 /* Uvod */
 .uvod {
-  background: url("img/bg_uvod.gif") no-repeat;
+  background: url('img/bg_uvod.gif') no-repeat;
 }
 
 .uvod img {
@@ -333,20 +333,22 @@ ul.accordion li p {
 }
 
 .cennikTable .vyska {
-  padding-right: 10px;
+  padding: 5px;
   text-align: right;
+  white-space: nowrap;
 }
 
 .cennikTable .latinsky {
-  padding: 0 10px;
+  padding: 5px;
 }
 
 .cennikTable .nazov {
-  padding: 0 10px;
+  padding: 5px;
 }
 
 .cennikTable .cena {
   text-align: center;
+  white-space: nowrap;
 }
 
 .cennikTable .fotka {
