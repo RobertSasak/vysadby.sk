@@ -1,0 +1,2 @@
+[0113/091603.463:ERROR:directory_reader_win.cc(43)] FindFirstFile: Systém nemôe nájs zadanú cestu. (0x3)
+[0113/091603.473:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\Sw\AppData\Local\AVAST Software\Browser\User Data\Crashpad\attachments\10730bde-bec2-48e0-9876-d82c42e493de: Systém nemôe nájs zadanú cestu. (0x3)
