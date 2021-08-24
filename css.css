@@ -351,6 +351,10 @@ ul.accordion li p {
   white-space: nowrap;
 }
 
+.cennikTable .cena  b {
+  color: #920d0d;
+}
+
 .cennikTable .fotka {
   width: 75px;
 }
@@ -372,5 +376,9 @@ ul.accordion li p {
   .vpravo2,
   .dole img {
     display: none;
+  }
+  
+  .cennikTable .cena  b {
+    color: black;
   }
 }
