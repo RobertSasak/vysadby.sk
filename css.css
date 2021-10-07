@@ -365,7 +365,6 @@ ul.accordion li p {
 }
 
 @media print {
-  .cennikTable .fotka {
   .hpanel,
   .vpravo2,
   .dole img {
