@@ -313,6 +313,9 @@ ul.accordion li p {
   font-weight: bold;
   text-align: center;
 }
+.cennikTable thead td.vp {
+  width: 10px;
+}
 
 .cennikTable td {
   border: 1px solid black;
@@ -363,9 +366,6 @@ ul.accordion li p {
 
 @media print {
   .cennikTable .fotka {
-    display: none;
-  }
-
   .hpanel,
   .vpravo2,
   .dole img {
