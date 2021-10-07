@@ -54,12 +54,6 @@ footer {
   text-align: center;
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
-  .cennikTable .latinsky {
-    display: none;
-  }
-}
-
 .strana {
   margin: 0 auto;
   max-width: 760px;
@@ -338,12 +332,12 @@ ul.accordion li p {
   white-space: nowrap;
 }
 
-.cennikTable .latinsky {
-  padding: 5px;
-}
-
 .cennikTable .nazov {
   padding: 5px;
+}
+.cennikTable .nazov b {
+  font-size: 1.2em;
+  display: block;
 }
 
 .cennikTable .cena {
@@ -351,7 +345,7 @@ ul.accordion li p {
   white-space: nowrap;
 }
 
-.cennikTable .cena  b {
+.cennikTable .cena b {
   color: #920d0d;
 }
 
@@ -377,8 +371,8 @@ ul.accordion li p {
   .dole img {
     display: none;
   }
-  
-  .cennikTable .cena  b {
+
+  .cennikTable .cena b {
     color: black;
   }
 }
