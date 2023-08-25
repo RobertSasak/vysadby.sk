@@ -31,29 +31,25 @@
     />
 
     <script type="text/javascript">
-      $(function() {
-        $("a[rel*=lightbox]").lightbox();
+      $(function () {
+        $('a[rel*=lightbox]').lightbox()
 
         //startstop-slider
-        var delayLength = 4000;
-      });
+        var delayLength = 4000
+      })
     </script>
-    <script type="text/javascript">
-      var _gaq = _gaq || [];
-      _gaq.push(["_setAccount", "UA-25247619-1"]);
-      _gaq.push(["_trackPageview"]);
-
-      (function() {
-        var ga = document.createElement("script");
-        ga.type = "text/javascript";
-        ga.async = true;
-        ga.src =
-          ("https:" == document.location.protocol
-            ? "https://ssl"
-            : "http://www") + ".google-analytics.com/ga.js";
-        var s = document.getElementsByTagName("script")[0];
-        s.parentNode.insertBefore(ga, s);
-      })();
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-1GYY05EBP5"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || []
+      function gtag() {
+        dataLayer.push(arguments)
+      }
+      gtag('js', new Date())
+      gtag('config', 'G-1GYY05EBP5')
     </script>
   </head>
 
@@ -223,11 +219,9 @@
             ><img src="img/fotogaleria/f12-m.jpg"
           /></a>
         </div>
-        <div style="clear: both;float: none;"></div>
+        <div style="clear: both; float: none"></div>
       </div>
     </article>
-    <footer>
-      Záhradníctvo Jacovce: 0948 / 758 648
-    </footer>
+    <footer>Záhradníctvo Jacovce: 0948 / 758 648</footer>
   </body>
 </html>
